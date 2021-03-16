@@ -1359,10 +1359,9 @@ i.contact_icons {
 .offi:hover { 
 
 background: rgb(0,0,0);
-/*--/   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(128,0,0,1) 56%);        --*/
-	background:#ffa700;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+background:#ffa700;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   
 }
 .banner_text {
