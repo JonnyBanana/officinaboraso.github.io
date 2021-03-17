@@ -1349,7 +1349,8 @@ i.contact_icons {
 }
 #cont{
 	
-	color:#800000
+	/*--/ color:#800000 --*/
+	color:#ffa700;
 }
 .offi {
 	font-family: 'Russo One', sans-serif;
@@ -1359,9 +1360,10 @@ i.contact_icons {
 .offi:hover { 
 
 background: rgb(0,0,0);
-background:#ffa700;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+/*--/   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(128,0,0,1) 56%);        --*/
+	background:#ffa700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
 }
 .banner_text {
