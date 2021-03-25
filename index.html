@@ -23,6 +23,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //style css -->
 <!-- //lightbox files -->
 <link rel="stylesheet" href="css/lightbox.css">
+<!-- CONTACT FORM --> 
+<script src="js/jquery.validate.js"></script>
+<script src="js/validate.js"></script>
 <!-- //lightbox files -->
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
@@ -381,15 +384,15 @@ Disponiamo inoltre di Auto Sostitutiva.			</p>
 				</ul>
 			</div>
 			<div class="col-md-6 w3agile_contact_right">
-				<form action="#" method="post">
+				<form action="contatti.php" method="post">
 				    <p>Il Tuo Nome </p>
-				    <input type="text" name="Your Name"  required=""/>
+				    <input type="text" name="Your Name"  name="nome" id="nome" required=""/>
 					<p>La Tua Email </p>
-                    <input type="email" name="Your Email"  required=""/>
+                    <input type="email" name="Your Email" name="email" id="email" required=""/>
 					<p>Il Tuo Messaggio </p>
-					<textarea placeholder="" required=""></textarea>
+					<textarea name="messaggio" id="messaggio" placeholder="" required=""></textarea>
 
-					<input type="submit" value="INVIA">
+					<input type="submit" name="submit" id="submit" value="INVIA">
 				</form>
 			</div>
 			<div class="clearfix"> </div>
