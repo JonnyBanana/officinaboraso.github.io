@@ -17,3 +17,4 @@ else
 echo "Problemi nell'invio della mail";
 }
 }
+?>
